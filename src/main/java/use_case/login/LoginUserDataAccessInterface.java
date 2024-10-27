@@ -27,4 +27,9 @@ public interface LoginUserDataAccessInterface {
      */
     User get(String username);
 
+    /**
+     * Void func.
+     * @param name .
+     */
+    void setCurrentUser(String name);
 }
